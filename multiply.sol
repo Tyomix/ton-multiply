@@ -35,7 +35,7 @@ contract multiply {
     function mpl (int innum) public returns (int) {
         tvm.accept();
         require(innum > 0 && innum < 11, 103);
-        number = number * innum;
+        number *= innum;
         
         return number;
     }
